@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Student Info</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container" style='min-height: 100vh'>
+    <div class="row justify-content-center align-items-end my-0" style='min-height: 40vh'>
+      <button class='btn roll-btn btn-primary mx-2 btn-lg text-capitalize' data-id='std1'>roll-1</button>
+      <button class='btn roll-btn btn-primary mx-2 btn-lg text-capitalize' data-id='std2'>roll-2</button>
+      <button class='btn roll-btn btn-primary mx-2 btn-lg text-capitalize' data-id='std3'>roll-3</button>
+    </div>
+    
+    <div class="row justify-content-center align-items-center my-0" style='min-height: 10vh'>
+    <p class="font-weight-bold text-success mb-0 showRoll text-capitalize">Select Someone</p>  
+    </div>
+    <div class="row justify-content-center align-items-start my-0" style='min-height: 10vh'>
+      <button class='btn info-btn btn-primary mx-2 btn-lg text-capitalize'>name</button>
+      <button class='btn info-btn btn-primary mx-2 btn-lg text-capitalize'>address</button>
+      <button class='btn info-btn btn-primary mx-2 btn-lg text-capitalize'>CGPA</button>
+    </div>
+    <div class="row justify-content-center align-items-start my-0" style='min-height: 10vh'>
+      <p class="font-weight-bold text-success mt-1 showInfo text-capitalize">The results will show here</p>
+    </div>
+  </div>
+  <script src="./app.js" type="module"></script>
+</body>
+
+</html>
